@@ -1,0 +1,147 @@
+@charset "UTF-8"
+html{
+    background-color: rgb(33, 68, 167);
+}
+body{
+margin: 0;
+padding: 0;
+}
+.header{
+    background-color: rgb(33, 68, 167);
+}
+
+.header h4{
+height: 20px;
+}
+
+.header h3{
+    background-color: rgb(33, 68, 167);
+    height: 100px;
+    overflow: auto;
+    color: rgb(128, 18, 18);
+    font-size: 60px;
+    padding-left: 40px;
+}
+
+.header nav{
+    padding-left: 20px;
+    margin-right: 10px;
+    border-bottom: 4px solid black;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 92px;
+}
+
+nav a{
+    background-color: rgb(13, 42, 110);
+    display:inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
+    color: white;
+    padding: 20px;
+    align-items: bottom;
+    margin-bottom: 0;
+    text-decoration: none;
+    overflow: auto;
+    float: bottom;
+    border: 4px solid black;
+}
+nav a.special{
+    padding: 30px;
+    font-size: 20px;
+    border-bottom: 5px solid rgb(8, 36, 102);
+}
+
+.footer{
+    height: 40px;
+    background-color: rgb(33, 68, 167);
+    overflow: auto;
+    overflow: hidden;
+}
+
+/*RIOT FORGE*/
+.bodyRF{
+    height: 600px;
+    overflow: auto;
+}
+.lista{
+display: flex;
+}
+.game{
+    width: 530px;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+}
+.game img{
+    width: 100%;
+    height: auto;
+}
+/*VALORANT*/
+.bodyVAL{
+    background-image: url(images/Valorant.webp);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    overflow: auto;
+    color: white;
+    font-size: 20px;
+}
+.bodyVAL p{
+    margin-top: 400px;
+    margin-left: 20px;
+}
+
+/*LEAGUE OF LEGENDS*/
+.bodyLOL{
+    background-image: url(images/LeagueOfLegends.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    overflow: auto;
+    color: white;
+    font-size: 20px;
+}
+.bodyLOL p{
+    margin-left: 300px;
+}
+
+/*Wild Rift*/
+.bodyWR{
+    background-image: url(images/WildRift.webp);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    overflow: auto;
+    color: white;
+    font-size: 20px;
+}
+.bodyWR p{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+/*Legends of Runterra*/
+.bodyLOR{
+    background-image: url(images/LegendsOfRunterra.webp);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    overflow: auto;
+    color: white;
+    font-size: 20px;
+}
+.bodyLOR p{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+/*Riot Games(start)*/
+.bodyM{
+    background-image: url(images/RiotGames.png);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    overflow: auto;
+    color: red;
+    font-size: 20px;
+}
